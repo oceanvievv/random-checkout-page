@@ -1,0 +1,17 @@
+.checkout__form-button {
+  width: 166px;
+  height: 54px;
+
+  align-self: flex-end;
+
+  background-color: var(--color-sea-buckthorn);
+  border-radius: 12px;
+  border: none;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--text-fs-m);
+  line-height: var(--text-lh-m);
+  color: white;
+}

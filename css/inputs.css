@@ -1,0 +1,143 @@
+.base-input {
+  display: flex;
+  flex-direction: column;
+
+  gap: 7px;
+}
+.base-input__title {
+  font-size: var(--text-fs-xs);
+  line-height: var(--text-lh-xs);
+}
+.base-input__input-wrapper {
+  width: 100%;
+  max-width: 465px;
+  height: 56px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  border: 1px solid var(--color-grey);
+  border-radius: 12px;
+
+  box-sizing: border-box;
+
+  padding: 18px 14px;
+
+  gap: 10px;
+}
+.base-input__input-wrapper input {
+  width: 100%;
+  height: 100%;
+  
+  border: none;
+
+  box-sizing: border-box;
+}
+.base-input__input-wrapper input {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  
+  font-size: var(--text-fs-m);
+  line-height: var(--text-lh-m);
+
+  color: var(--color-night-rider);
+}
+.base-input__input-wrapper input::placeholder {
+  color: var(--color-grey);
+}
+.base-input__icon-wrapper {
+  width: 22px;
+  height: 22px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.base-input__icon-wrapper img{
+  width: 100%;
+  min-width: 22px;
+
+  height: 100%;
+}
+
+.checkbox-input-wrapper {
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 11px;
+}
+.checkbox-input {
+  min-width: 21px;
+  height: 21px;
+
+  vertical-align: middle;
+
+  background-color: white;
+
+  border: 1px solid var(--color-grey);
+  border-radius: 4px;
+  
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+.checkbox-input:checked {
+  border: none;
+
+  background-color: var(--color-night-rider);
+}
+.checkbox-input__title {
+  font-size: var(--text-fs-xs);
+  line-height: var(--text-lh-xs);
+}
+
+@media (max-width: 475px) {
+  .base-input {
+    display: flex;
+    flex-direction: column;
+  
+    gap: 5px;
+  }
+  .base-input__title {
+    font-size: var(--text-fs-xxs);
+    line-height: var(--text-lh-xxs);
+  }
+  .base-input__input-wrapper {
+    height: 40px;
+  
+    padding: 11px 10px;
+  
+    gap: 12px;
+  }
+  .base-input__input-wrapper input {
+    font-size: var(--text-fs-xs);
+    line-height: var(--text-lh-xs);
+  }
+  .base-input__icon-wrapper {
+    width: 15px;
+    height: 15px;
+  }
+  .base-input__icon-wrapper img{
+    min-width: 15px;
+  }
+  .checkbox-input-wrapper {
+    margin-top: 17px;
+
+    gap: 8px;
+  }
+  .checkbox-input {
+    min-width: 15px;
+    height: 15px;
+  }
+  .checkbox-input__title {
+    font-size: var(--text-fs-xxs);
+    line-height: var(--text-lh-xxs);
+  }
+}

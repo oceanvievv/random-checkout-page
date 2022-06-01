@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-wrapper {
+  width: 100%;
+  max-width: 961px;
+}
+
+.checkout-content-wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 64px;
+  margin-bottom: 159px;
+}
+
+@media (max-width: 1024px) {
+  .content-wrapper {
+    width: 100%;
+    max-width: calc(100% - 80px);
+  }
+}
+
+@media (max-width: 475px) {
+  .content-wrapper {
+    max-width: calc(100% - 24px);
+  }
+  .checkout-content-wrapper {
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+  
+    margin-top: 32px;
+    margin-bottom: 95px;
+  }
+}

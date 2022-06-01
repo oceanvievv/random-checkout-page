@@ -1,0 +1,79 @@
+/* Consts */
+:root {
+  /* Text font-sizes & line-heights */
+  --text-fs-xxl: 36px;
+  --text-lh-xxl: 44px;
+
+  --text-fs-xl: 24px;
+  --text-lh-xl: 30px;
+
+  --text-fs-l: 18px;
+  --text-lh-l: 22px;
+
+  --text-fs-m: 16px;
+  --text-lh-m: 20px;
+
+  --text-fs-s: 14px;
+  --text-lh-s: 17px;
+
+  --text-fs-xs: 12px;
+  --text-lh-xs: 15px;
+
+  --text-fs-xxs: 10px;
+  --text-lh-xxs: 12px;
+
+  /* Colors */
+  --color-white: white;
+  --color-cape-cod: #4E5150;
+  --color-silver: #BDBDBD;
+  --color-grey: #828282;
+  --color-night-rider: #333333;
+  --color-matterhorn: #4F4F4F;
+  --color-sea-buckthorn: #F2994A;
+  --color-sea-gainsboro: #E0E0E0;
+  --color-white-smoke: #F2F2F2;
+}
+
+/* Text */
+.page-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Text colors */
+.color-cape-cod {
+  color: var(--color-cape-cod);
+}
+.color-night-rider {
+  color: var(--color-night-rider);
+}
+.color-matterhorn {
+  color: var(--color-matterhorn);
+}
+.color-grey {
+  color: var(--color-grey);
+}
+.color-sea-buckthorn {
+  color: var(--color-sea-buckthorn);
+}
+.color-white {
+  color: var(--color-white);
+}
+.color-silver {
+  color: var(--color-silver);
+}
+
+/* Text decorations */
+.text-bold {
+  font-weight: 700;
+}
+.text-semi-bold {
+  font-weight: 500;
+}
+.text-underline {
+  text-decoration: underline;
+}
+.text-line-through {
+  text-decoration: line-through;
+}
